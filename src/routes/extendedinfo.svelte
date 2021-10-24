@@ -2,8 +2,8 @@
     import Navbar from '$lib/Navbar.svelte';
     import Header from '$lib/Header.svelte';
     </script>
-    <Navbar currentPage={"About"}/>
-    <Header CurrentPage={"About"}/>
+    <Navbar currentPage={"Extended Info"}/>
+    <Header CurrentPage={"Extended Info"}/>
     <style>
     
     </style>

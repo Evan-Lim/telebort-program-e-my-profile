@@ -1,3 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<a href="/about">About page</a>
+<script>
+import Navbar from '$lib/Navbar.svelte';
+import Header from '$lib/Header.svelte';
+</script>
+<Navbar currentPage={"Home"}/>
+<Header CurrentPage={"Home"}/>
+<img src="/Evan-image.jpeg" alt="evanImage" height="270px" width="207.5px">
+<style>
+
+</style>
